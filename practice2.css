@@ -1,0 +1,21 @@
+body{
+  margin-top:150px;
+  margin-left: 600px;
+  background: linear-gradient(to right,powderblue,white);
+}
+
+input[type="text"],input[type="email"],input[type='Password']
+{
+  width:400px;
+  height:30px;
+}
+input[type="submit"]
+{
+  padding:5px;
+  background-color: black;
+  color:white;
+  width:85px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-family: sans-serif;
+}
