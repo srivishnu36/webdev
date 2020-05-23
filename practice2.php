@@ -1,5 +1,5 @@
 <?php
-$link=mysqli_connect('localhost','root','vishnu','users');
+$link=mysqli_connect('localhost','root','password','users');
 if(mysqli_connect_error())
 {
   die("Error in connecting")
@@ -30,7 +30,7 @@ if(mysqli_num_rows($result)>0)
 }
 if($count==0)
 {
-  $query=" INSERT into info (name,age,email,password) VALUES ('$username','$age','$email',$password) ";
+  $query=" INSERT into info (name,age,email,password) VALUES ('$username','$age','$email','$password') ";
   $res=mysqli_query($link,$query);
 
   if($res)
